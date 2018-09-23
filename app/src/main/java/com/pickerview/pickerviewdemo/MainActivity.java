@@ -17,11 +17,8 @@ import db.DBManager;
 import db.ProvinceBean;
 
 public class MainActivity extends AppCompatActivity {
-
-
-
     private TextView tvTitle;
-    private OptionsPickerView pvOptions;//地址选择器
+    private OptionsPickerView pvOptions;// 地址选择器
     private ArrayList<ProvinceBean> options1Items = new ArrayList<>();//省
     private ArrayList<ArrayList<CityBean>> options2Items = new ArrayList<>();//市
     private ArrayList<ArrayList<ArrayList<AreaBean>>> options3Items = new ArrayList<>();//区
