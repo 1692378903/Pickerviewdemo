@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
     private TextView tvTitle;
     private OptionsPickerView pvOptions;//地址选择器
     private ArrayList<ProvinceBean> options1Items = new ArrayList<>();//省
